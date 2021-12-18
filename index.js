@@ -10,7 +10,7 @@ app.engine('html', require('ejs').renderFile);
 app.set('views', path.join(__dirname, "views"));
 
 //Routes
-app.use(require('./routes/main'))
+app.use(require('./routes/main'));
 
 //Middlewares
 app.use('/public', express.static('public'));

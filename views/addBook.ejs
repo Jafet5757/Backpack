@@ -1,0 +1,27 @@
+<%- include('partials/_header'); %>
+
+    <%- include('partials/_nav'); %>
+
+    <style>
+        body{
+            background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+        }
+        .big-text{
+            font-size: 70px;
+            cursor: pointer;
+        }
+    </style>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card mx-5 px-3 py-5">
+                    <p class="text-center h4">Add title</p>
+                    <input type="text" class="form-control" placeholder="Topic or technology"/>
+                    <button class="btn btn-success mt-3">Create book</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<%- include('partials/_footer'); %>

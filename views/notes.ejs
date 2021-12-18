@@ -1,0 +1,47 @@
+<%- include('partials/_header'); %>
+
+    <%- include('partials/_nav'); %>
+
+    <style>
+        body{
+            background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+        }
+        .big-text{
+            font-size: 70px;
+            cursor: pointer;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row mt-5">
+            <h1 class="text-center text-white">Note's name</h1>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <td class="text-center h4">
+                                How show databases in mongo
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <pre class=" language-js">
+                                    <code class=" language-js">
+                                        <span class="token kewyword">let</span> pass = 'some text';
+                                    </code>
+                                </pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+<%- include('partials/_footer'); %>
